@@ -1,0 +1,6 @@
+{
+  "name": "Ella RailGo - Travel Ella by Rail",
+  "description": "Ella RailGo mobile tourism and railway guide: Sri Lanka Railways timetable, Ella attractions, ticket fares, station contacts, and feedback portal.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', 'Noto Sans Sinhala', 'Noto Sans Tamil', system-ui, -apple-system, sans-serif;
+    background-color: #f3f6f4;
+    color: #1a2e26;
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+@keyframes trainLoop {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(100vw + 320px));
+  }
+}
+
+@keyframes smokePuff {
+  0% {
+    transform: translate(0, 0) scale(0.9);
+    opacity: 0.9;
+  }
+  100% {
+    transform: translate(-18px, -16px) scale(2.6);
+    opacity: 0;
+  }
+}
